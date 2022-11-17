@@ -1,0 +1,18 @@
+import { View, Text, TouchableOpacity, Image } from 'react-native'
+import React from 'react'
+import tw from 'tailwind-react-native-classnames'
+
+const CategoriesCard = ({imageUrl , title}) => {
+  return (
+    <TouchableOpacity style={tw`relative mr-2 bg-black rounded-lg`}>
+        <Image source={{
+                uri:imageUrl
+            }}
+            style={tw`h-20 w-20 rounded`}
+            />
+      <Text style={tw`absolute bottom-1 left-1 text-white font-bold`}>{title}</Text>
+    </TouchableOpacity>
+  )
+}
+
+export default CategoriesCard
