@@ -24,12 +24,12 @@ export default {
     {
       name: "lat",
       title: "Latitude of the Restraunt ",
-      type: "string",
+      type: "number",
     },
     {
       name: "long",
       title: "Longitude of the Restraunt ",
-      type: "string",
+      type: "number",
     },
     {
       name: "address",

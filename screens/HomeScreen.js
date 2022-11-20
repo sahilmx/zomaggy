@@ -70,7 +70,7 @@ const HomeScreen = () => {
           <MagnifyingGlassIcon color={"gray"} size={20} />
           <TextInput
             placeholder="restraunts and cousines"
-            keyboardType="deafault"
+            keyboardType="defaults"
           />
         </View>
         <AdjustmentsHorizontalIcon color="#00CCBB" />

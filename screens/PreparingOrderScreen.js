@@ -7,16 +7,15 @@ import * as Progress from 'react-native-progress';
 import { useNavigation } from '@react-navigation/native';
 
 const PreparingOrderScreen = () => {
-const [p, setProgress] = useState(0.0)
     const navigation = useNavigation();
 
-    setInterval(()=>{
-        setProgress(p+0.25);
-    }, 1000);
-    useEffect(() => {
-            
-        setTimeout(() => navigation.navigate("Delivery"),1000);
-    },[]);
+   useEffect(() => {
+     
+    setTimeout(() => navigation.navigate("Delivery"),4000);
+     
+    
+   }, [])
+   
 
   return (
     <SafeAreaView style={tw`bg-green-400 justify-center items-center flex-1`}>
@@ -36,7 +35,7 @@ const [p, setProgress] = useState(0.0)
            </Animatable.Text>
 
 
-           <Progress.Bar progress={p} width={200} color={"white"} />
+           <Progress.Bar indeterminate={true} width={200} color={"white"} />
     </SafeAreaView>
   )
 }
