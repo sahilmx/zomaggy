@@ -38,4 +38,15 @@
 
 # Create a eas build for the project
 
-     ~eas build --profile development --platform abdroid
+     ~eas build --profile development --platform abdroid.
+
+
+# Live Shots Of the application
+
+![IMG-20221121-WA0005](https://user-images.githubusercontent.com/56434871/202921177-f9ef43fe-d6b3-4477-8d4a-c0bff44da9c8.jpg)
+![IMG-20221121-WA0006](https://user-images.githubusercontent.com/56434871/202921181-9ebee7fd-ef0e-4f44-a104-ba8bdf0fb061.jpg)
+![IMG-20221121-WA0007](https://user-images.githubusercontent.com/56434871/202921182-dff5d4f7-c135-401d-bab4-307e23de7a6b.jpg)
+![IMG-20221121-WA0008](https://user-images.githubusercontent.com/56434871/202921185-843e05fb-59d4-4a12-a067-2f444db33cf5.jpg)
+![IMG-20221121-WA0009](https://user-images.githubusercontent.com/56434871/202921187-6c86ff83-0273-47fd-8954-ddad0f48ddfd.jpg)
+![IMG-20221121-WA0010](https://user-images.githubusercontent.com/56434871/202921189-0829091b-8e9b-4e05-af17-ea3f24f69628.jpg)
+![IMG-20221121-WA0011](https://user-images.githubusercontent.com/56434871/202921190-ac90c12c-171b-4a18-948d-a6b570294fcb.jpg)
